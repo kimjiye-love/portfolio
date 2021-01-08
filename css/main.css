@@ -10,7 +10,7 @@ body {font-family: 'NanumSquare', sans-serif }
 .hometitle > h1{width: 46%;float: left;font-size: 100px;text-align: center;color: #fff;font-weight: 900;}
 .plustwo{width: 11%;float: left;padding-left: 4%;}
 .ratangletwo{width: 2%;float: left;}
-.homename{font-weight: 400; width:26%;position: absolute;bottom:29%; right: 17%;overflow: hidden;font-size: 25px;color: #fff;}
+.homename{font-weight: 400; width:26%;position: absolute;bottom:29%; right: 20%;overflow: hidden;font-size: 25px;color: #fff;}
 
 /*menu*/
 header{position:fixed;right: 0;top:20px;z-index: 10;}
@@ -87,6 +87,8 @@ fieldset > div{float: left;text-align: center;}
 .toolbar{display: none;}
 
 /*motion*/
+.swiper-container2 {font-family: 'NanumSquare', sans-serif;width: 100%;height:100vh;position: relative;overflow: hidden;}
+.swiper-slide {font-size: 18px;-webkit-box-sizing: border-box;box-sizing: border-box;}
 .motion{width: 100%;height: 100vh;}
 .motiontitle{background-image:  url(../img/motiontitle.png);width: 100%;background-size: cover;height:fit-content;}
 .motiontitle > h1{color: #fff;font-size: 100px;}
@@ -113,6 +115,9 @@ fieldset > div{float: left;text-align: center;}
 .player> a:hover:before{width: 100%;}
 
 /* ux/ui design*/
+.swiper-container1 {font-family: 'NanumSquare', sans-serif; width: 100%;height:95vh;position: relative;overflow: hidden;}
+.swiper-slide {font-size: 18px; -webkit-box-sizing: border-box;box-sizing: border-box;}
+.swiperbackgrond{width:100%;overflow:hidden;background:#fadcc7;}
 .uxuititle{font-size: 70px;color:  #272222;text-align: center;background: #fff;} 
 .uxuicontentimg{float: left;width:50%;padding: 9% 5%;}
 .uxuicontentimg > img{width:100%;}
@@ -138,12 +143,12 @@ footer{background:#e18a99;width: 100%;height: 50px;line-height: 50px;}
 
 @media screen and (min-width:1280px) and (max-width:1599px) {
 /*home*/
-.ratangle{width: 36%;}
-.plus{width: 10%;}
-.hometitle > h1{width: 42%;}
+.ratangle{width: 38%;}
+.plus{width: 5%;}
+.hometitle > h1{width: 44%;}
 .plustwo{width: 7%;padding-left: 0;}
 .ratangletwo{width: 4%;}
-.homename{width: 28%;bottom: 30%; right: 19%;}
+.homename{width: 28%;bottom: 30%; right: 12%;}
 
 /*introduce*/
 .introducecontent{top: 11%;}
@@ -198,7 +203,7 @@ legend{font-size: 25px;}
 .plustwo > img{width:28%;}
 .ratangletwo{width:4%;}
 .ratangletwo > img{width:122%;}
-.homename{width: 48%;bottom: 25%; right: 4%;font-size: 18px;}
+.homename{width: 48%;bottom: 25%; right: 0%;font-size: 18px;}
    
 /*introduce */
 .introducecontent{left: 14%;top:37%;}
