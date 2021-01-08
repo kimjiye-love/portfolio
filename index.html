@@ -15,6 +15,8 @@
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/colorbox.css">
+    <script src="js/jquery.colorbox-min.js"></script>
           
 <style>
 
@@ -146,7 +148,10 @@
       },
     });
 
- });
+ 
+         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});                 
+      
+      });
 </script>
 </head>
 <body>
@@ -306,7 +311,8 @@
                       <li><img src="img/aftereffect.png"></li>
                   </ul>
               </div>
-              <div class="player"><a href="#">Play Video</a></div>
+              <div class="player"><a href="img/teayeonpromotion.mp4" class="modal">Play Video</a></div>
+<!--              <div class="player"><a href="#">Play Video</a></div>-->
         </div>
        </div>
       </div>
