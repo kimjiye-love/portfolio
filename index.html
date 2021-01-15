@@ -149,25 +149,37 @@
     });
      
      var w_width = window.outerWidth;
-              
-         if (w_width <= 767) {
-          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
+         
+        if (w_width <= 400) {
+          $(".modal").colorbox({iframe:true,innerWidth:300,innerHeight:168.75});
          }
-         else{
-         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
+              
+         else if ( w_width > 400 && w_width <= 767) {
+          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
          }
      
-      $(window).resize(function (){
-         var w_width = window.outerWidth;
-              
-         if (w_width <= 767) {
-          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
-         }
          else{
          $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
          }
-      });
- 
+     $(document).ready(function(){  
+      $(window).resize(function (){
+         var w_width = window.outerWidth;
+          
+        if (w_width <= 400) {
+          $(".modal").colorbox({iframe:true,innerWidth:300,innerHeight:168.75});
+         }
+              
+         else if ( w_width > 400 && w_width <= 767) {
+          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
+         }
+     
+         else{
+         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
+         }
+      })
+ });
+
+
       });
 </script>
 </head>
