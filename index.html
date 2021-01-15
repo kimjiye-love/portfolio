@@ -147,10 +147,27 @@
         prevEl: '.swiper-button-prev',
       },
     });
-
+     
+     var w_width = window.outerWidth;
+              
+         if (w_width <= 767) {
+          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
+         }
+         else{
+         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
+         }
+     
+      $(window).resize(function (){
+         var w_width = window.outerWidth;
+              
+         if (w_width <= 767) {
+          $(".modal").colorbox({iframe:true,innerWidth:400,innerHeight:225});
+         }
+         else{
+         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
+         }
+      });
  
-         $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});                 
-      
       });
 </script>
 </head>
