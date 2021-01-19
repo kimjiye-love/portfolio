@@ -1,6 +1,6 @@
 @charset "utf-8";
 .clear:after{content: '';display: block;clear: both;}
-body {font-family: 'NanumSquare', sans-serif }
+body{font-family: 'NanumSquare', sans-serif;}
 /*home*/
 .home{background-size: cover;width: 100%; height: 100vh;position: relative;background-image: url(../img/homeback.png); }
 .hometitle{width: 100%; position: absolute;bottom: 15%;overflow: hidden;}
@@ -43,7 +43,7 @@ header{position:fixed;right: 0;top:20px;z-index: 10;}
 .introducecontent > h2{width:340px;font-size: 36px;color: #fff;margin-bottom: 2%;margin-left: 22px; font-weight: 800;}
 .myimgcontent{width:800px;overflow: hidden;}
 .myimg{width:413px;float: left;}
-.myimgtxt{width:380px;float: left;margin-top:250px;color: #fff;font-family: 'Cafe24Simplehae';}
+.myimgtxt{width:380px;float: left;margin-top:250px;color: #fff;}
 .myimgtxt > p:nth-child(1){font-size: 30px;margin-bottom: 20px;}
 .myimgtxt > p:nth-child(2){line-height: 20px;}
 

@@ -26,7 +26,7 @@
    
 <script>
  $(document).ready(function() {
-  $(function(){
+  
        $(".head> li:nth-child(1)").click(function(e){
            var at = $(".home").offset().top;
           e.preventDefault();           $("html,body").animate({scrollTop:at},1500);
@@ -100,9 +100,8 @@
                 $("#wrap > div.home > header > ul > li:nth-child(6)").removeClass("on");
             }
       });
-         $("#video").fitVids();
-       
-    });
+        
+  
       
 
      $("#wrap > div").mousewheel(function(e,d){
@@ -161,7 +160,7 @@
          else{
          $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
          }
-     $(document).ready(function(){  
+      
       $(window).resize(function (){
          var w_width = window.outerWidth;
           
@@ -177,7 +176,7 @@
          $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
          }
       });
- });
+
      $(".swiper-container2 #video").fitVids();
 
       });
@@ -464,7 +463,7 @@
             회원가입에 대한 폼도 제작하였습니다. <br>
             </p>
           </div>
-          <div class="gosite"><a href="https://kimjiye-love.github.io/cosmetics/">GO SITE</a></div>
+          <div class="gosite"><a href="https://kimjiye-love.github.io/cosmetics/" target="_blank">GO SITE</a></div>
            </div>
            </div>
        </div>
@@ -502,7 +501,7 @@
             노출하였습니다. 화살표를 클릭하여 서브메뉴를<br>
             더 자세히 살펴볼 수 있습니다.</p>
           </div>
-          <div class="gosite"><a href="https://kimjiye-love.github.io/ediyacoffee/">GO SITE</a></div>
+          <div class="gosite"><a href="https://kimjiye-love.github.io/ediyacoffee/" target="_blank">GO SITE</a></div>
            </div>
            </div>
        </div>
