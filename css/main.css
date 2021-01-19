@@ -92,9 +92,8 @@ fieldset > div{float: left;text-align: center;}
 .motion{width: 100%;height: 100vh;}
 .motiontitle{background-image:  url(../img/motiontitle.png);width: 100%;background-size: cover;height:fit-content;}
 .motiontitle > h1{color: #fff;font-size: 100px;}
-#video{width:50%;}
+#video{width:50%;float: left;}
 .main_video{overflow: hidden;width:100%;}
-#video > video{width:100%;display: block;float: left;}
 .videotxt{float: left;width:50%;padding: 3% 0% 0% 5%;}
 .stillcutcontent{text-align: center;width:80%;margin: 0 auto;overflow: hidden;}
 .video{overflow: hidden;width: 100%;}
@@ -256,7 +255,7 @@ fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
 /*motion*/
 .motiontitle > h1{color: #fff;font-size: 60px;}
 .video>li>img{width:90%;}
-.stillcut{margin-top: 9%; }
+.stillcut{margin-top: 8%; }
 .stilltitle > h1{font-size: 30px;}
 .stilltitle > p{font-size: 20px;}
 .videotxt{padding: 1% 0 0 3%;}
@@ -272,6 +271,7 @@ fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
 .video>li{width:50%;}
 .video > li:nth-child(3)  {display: none;}
 .video > li:nth-child(4)  {display: none;}  
+.video > li>img{width:80%;}
     
 /*ux/ui design*/
 .uxuititle{font-size: 20px;text-align: center;}

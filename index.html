@@ -17,7 +17,7 @@
     <script src="js/swiper.min.js"></script>
     <link rel="stylesheet" href="css/colorbox.css">
     <script src="js/jquery.colorbox-min.js"></script>
-          
+     <script src="js/jquery.fitvids.js"></script>  
 <style>
 
 
@@ -100,7 +100,7 @@
                 $("#wrap > div.home > header > ul > li:nth-child(6)").removeClass("on");
             }
       });
-        
+         $("#video").fitVids();
        
     });
       
@@ -176,9 +176,9 @@
          else{
          $(".modal").colorbox({iframe:true,innerWidth:560,innerHeight:315});
          }
-      })
+      });
  });
-
+     $(".swiper-container2 #video").fitVids();
 
       });
 </script>
@@ -323,10 +323,7 @@
         <div class="motiontitle"><h1>Promotion</h1></div>
         <div class="main_video">
         <div id="video">
-           <video autoplay muted loop>
-              <source src="img/teayeonpromotion.mp4"  alt="메인비디오" type="video/mp4">
-           </video>
-          
+          <iframe width="560" height="315"src="https://www.youtube.com/embed/ngJiISWlU78?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=ngJiISWlU78"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="videotxt">
             <h1>Explanation</h1>
@@ -339,7 +336,7 @@
                       <li><img src="img/aftereffect.png"></li>
                   </ul>
               </div>
-              <div class="player"><a href="img/teayeonpromotion.mp4" class="modal">Play Video</a></div>
+              <div class="player"><a href="https://www.youtube.com/embed/ngJiISWlU78" class="modal">Play Video</a></div>
         </div>
        </div>
       </div>
@@ -361,11 +358,8 @@
         <div class="motiontitle"><h1>App Promotion</h1></div>
         <div class="main_video">
         <div id="video">
-           <video autoplay muted loop>
-              <source src="img/app.mp4" alt="라인업" type="video/mp4">
-           </video>
-          
-        </div>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/f3vVM-o073I?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=f3vVM-o073I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         <div class="videotxt">
             <h1>Explanation</h1>
             <p>내아이와 내가족의 사진들을 앨범으로 정리하고 공유하는 어플을 소개하는 영상입니다.<br><br>아이와 가족의 이미지를 따뜻하게 표현하기 위해 주황색을 사용하였고 어플의 기능과 간단한 설명영상을 통해 이해도를 높였습니다.<br><br>아이가 성장하는 모습이 담긴 사진들과 생동감있는 모션을 통해 밝고 경쾌한 분위기를 유지하였습니다.</p>
@@ -376,7 +370,7 @@
                       <li><img src="img/aftereffect.png"></li>
                   </ul>
               </div>
-              <div class="player"><a href="img/app.mp4" class="modal">Play Video</a></div>
+              <div class="player"><a href="https://www.youtube.com/embed/f3vVM-o073I" class="modal">Play Video</a></div>
         </div>
        </div>
       </div>
@@ -398,10 +392,7 @@
         <div class="motiontitle"><h1>Promotion</h1></div>
         <div class="main_video">
         <div id="video">
-           <video autoplay muted loop>
-              <source src="img/lineup.mp4" alt="라인업" type="video/mp4">
-           </video>
-          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GB22F6V96Hw?rel=0&amp;autoplay=1&mute=1&amp;loop=1;playlist=GB22F6V96Hw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="videotxt">
             <h1>Explanation</h1>
@@ -414,7 +405,7 @@
                       <li><img src="img/aftereffect.png"></li>
                   </ul>
               </div>
-              <div class="player"><a href="img/lineup.mp4" class="modal">Play Video</a></div>
+              <div class="player"><a href="https://www.youtube.com/embed/GB22F6V96Hw" class="modal">Play Video</a></div>
         </div>
        </div>
       </div>
