@@ -2,7 +2,7 @@
 .clear:after{content: '';display: block;clear: both;}
 body{font-family: 'NanumSquare', sans-serif;}
 /*home*/
-.home{background-size: cover;width: 100%; height: 100vh;position: relative;background-image: url(../img/homeback.png); }
+.home{background-size: cover;width: 100%; height: 100vh;position: relative;background-image: url(../img/homeback.png) ;background-position: center;}
 .hometitle{width: 100%; position: absolute;bottom: 15%;overflow: hidden;}
 .hometitle > div{padding-top: 30px;}
 .ratangle{width: 30%; float: left;padding-left: 1%}
@@ -38,7 +38,7 @@ header{position:fixed;right: 0;top:20px;z-index: 10;}
 
 /*introduce */
 .introduce{width:100%;height: 100vh;position: relative;}
-.introducebackground{position: absolute; width: 100%; height: 80vh; background: url(../img/introducebackground.png)no-repeat ;}
+.introducebackground{position: absolute; width: 100%; height: 80vh; background: url(../img/introducebackground.png)no-repeat;}
 .introducecontent{width:50%;top: 30%;left:21%;position: absolute;height: 100vh;}
 .introducecontent > h2{width:340px;font-size: 36px;color: #fff;margin-bottom: 2%;margin-left: 22px; font-weight: 800;}
 .myimgcontent{width:800px;overflow: hidden;}
