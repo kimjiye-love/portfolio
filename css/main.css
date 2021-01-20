@@ -309,7 +309,7 @@ fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
 .head> li > a{font-size: 13px;}
   
 /*introduce */
-.introducebackground{height: 100vh;}
+.introducebackground{height: 100vh;background-size: cover;}
 .introducecontent{width:279px;margin: 0 auto;top:0;padding-top: 13%;position:absolute;}
 .myimgcontent{width:280px;}
 .introducecontent> h2{text-align: center;}
