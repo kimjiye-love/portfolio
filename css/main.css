@@ -217,10 +217,10 @@ legend{font-size: 25px;}
 /*profile*/
 .profiletitle{width:83%;height: 9vh;padding: 20px;}
 .profiletitle > h1{font-size: 20px;}
-.profilecontent{height: 84vh;width: 70%;margin: 15vh auto 0;}
+.profilecontent{height: 84vh;width: 70%;margin: 9% auto 0;}
 .profileimg{float: none;overflow: hidden;width:100%;margin: 0 auto;}
 .myimg2{float: left;width:40%;margin-left: 10%}
-.myimg2>img{width:186px;}
+.myimg2>img{width:150px;}
 .profiletxt{float: none;margin-top: 7%;width:100%;}
 .profileimgtxt:before{height: 130px;}
 .profileimgtxt{margin-top: 54px;}
@@ -327,13 +327,13 @@ fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
 .profilecontent{width:83%;}
 .profileimg{float: none;overflow: hidden;width:100%;}
 .myimg2{float: left;width:56%;}
-.myimg2>img{width:155px;}
+.myimg2>img{width:135px;}
 .profileimgtxt:before{display: none;}
 .profileimgtxt{margin-top: 30px;}
 .profileimgtxt > p{padding: 10px 0;font-size:15px;}
 .profileimgtxt > ul{font-size: 12px;}
 .profileintro> li{margin-top: 4px;}
-.profiletxt{width:100%;margin-top: 16%;}
+.profiletxt{width:100%;margin-top: 9%;}
  .education{padding-left: 0;}
 .educationleft{width:30%;}
 .educationright{width:70%;}
