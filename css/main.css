@@ -38,7 +38,7 @@ header{position:fixed;right: 0;top:20px;z-index: 10;}
 
 /*introduce */
 .introduce{width:100%;height: 100vh;position: relative;}
-.introducebackground{position: absolute; width: 100%; height: 80vh; background: url(../img/introducebackground.png)no-repeat;}
+.introducebackground{position: absolute; width: 100%; height: 80vh; background: url(../img/introducebackground.png)no-repeat;background-size: 100%;}
 .introducecontent{width:50%;top: 30%;left:21%;position: absolute;height: 100vh;}
 .introducecontent > h2{width:340px;font-size: 36px;color: #fff;margin-bottom: 2%;margin-left: 22px; font-weight: 800;}
 .myimgcontent{width:800px;overflow: hidden;}
@@ -76,7 +76,7 @@ fieldset > div{float: left;text-align: center;}
 .mail{width: 50%;}
 .phone{width:25%;}
 .kakaotalk{width:25%;}
- legend{text-align: center;font-size: 30px;}
+ legend{text-align: center;font-size: 30px;margin: 0 auto;}
 
 /*skill*/
 .skill{width: 100%;height: 100vh;color: #272222;}
@@ -206,6 +206,7 @@ legend{font-size: 25px;}
    
 /*introduce */
 .introducecontent{left: 14%;top:37%;}
+    .introducebackground{height: 66vh;}
 .myimgcontent {width:645px;}
 .myimg{width:280px;}
 .myimg > img{width:100%;}
@@ -217,11 +218,11 @@ legend{font-size: 25px;}
 /*profile*/
 .profiletitle{width:83%;height: 9vh;padding: 20px;}
 .profiletitle > h1{font-size: 20px;}
-.profilecontent{height: 84vh;width: 70%;margin: 9% auto 0;}
+.profilecontent{height: 84vh;width: 70%;margin: 0 auto;}
 .profileimg{float: none;overflow: hidden;width:100%;margin: 0 auto;}
 .myimg2{float: left;width:40%;margin-left: 10%}
 .myimg2>img{width:150px;}
-.profiletxt{float: none;margin-top: 7%;width:100%;}
+.profiletxt{float: none;margin-top: 5%;width:100%;}
 .profileimgtxt:before{height: 130px;}
 .profileimgtxt{margin-top: 54px;}
 .profileimgtxt > p{padding: 10px 0;font-size:15px;}
@@ -237,7 +238,7 @@ legend{font-size: 25px;}
 .lincenseright{width:60%;}
 .lincenseleft>h1{font-size: 17px;}
 .lincenseright > p{font-size: 13px;}
-fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
+fieldset{margin-top: 3%;padding: 25px;height:18vh;width: 98%;}
 .profiletxt  p{line-height: 20px;}
 .phone > p {padding-top: 5px;}
 .mail > p{padding-top: 12px;}
@@ -324,7 +325,7 @@ fieldset{margin-top: 7%;padding: 25px;height:16vh;width: 98%;}
 .profile{vertical-align: middle;}
 .profiletitle{width:83%;height: 5vh;padding: 10px;}
 .profiletitle > h1{font-size: 20px;}
-.profilecontent{width:83%;}
+.profilecontent{width:83%;height: 87vh;}
 .profileimg{float: none;overflow: hidden;width:100%;}
 .myimg2{float: left;width:56%;}
 .myimg2>img{width:135px;}
