@@ -411,6 +411,7 @@ fieldset > div > div{float: left;margin-right: 20px;}
 .video > li:nth-child(3)  {display: none;}
 .video > li:nth-child(4)  {display: none;} 
 .video > li > img{width:100%;}
+.main_video{height: 63vh;}
 
 /*ux/ui design*/
 .uxuititle{font-size: 20px;text-align: center;}
